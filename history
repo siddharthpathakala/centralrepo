@@ -1,0 +1,60 @@
+    1  pwd
+    2  ls
+    3  which git
+    4  yum install git -y
+    5  which git
+    6  git --version
+    7  git config --global user.name 'Siddhu'
+    8  git config --global user.email 'Siddharthpathakala@gmail.com'
+    9  git config list
+   10  git config --global list
+   11  git config  list
+   12  git config  --list
+   13  git config --global user.email 'Sid.ree26@gmail.com'
+   14  git config  --list
+   15  exit
+   16  pwd
+   17  mkdir mumbaigit
+   18  ls
+   19  cd mumbaigit
+   20  git init
+   21  la -a
+   22  ls -a
+   23  vi myfile
+   24  ls -a
+   25  git status
+   26  git add .
+   27  git status
+   28  git commit -m 'first commit'
+   29  git status
+   30  git log
+   31  git show a73a21c
+   32  git remote add origin https://github.com/siddharthpathakala/centralrepo.git
+   33  git remote -v
+   34  git branch
+   35  git branch -M main
+   36  git branch
+   37  ls
+   38  git push -u origin main
+   39  pwd
+   40  git -v
+   41  git remote -v
+   42  git push -u origin main
+   43  pwd
+   44  git log
+   45  ls
+   46  vi myfile 
+   47  git status
+   48  git add myfile 
+   49  git commit -m 'second commit'
+   50  git log --o
+   51  git log --oneline
+   52  git show 8659b4b
+   53  git show a73a21c
+   54  git log --oneline
+   55  git diff head a73a21c
+   56  git diff HEAD a73a21c
+   57  git diff HEAD HEAD~1
+   58  git push
+   59  git push origin main
+   60  history > history
