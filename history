@@ -58,3 +58,77 @@
    58  git push
    59  git push origin main
    60  history > history
+   61  ls
+   62  cat history
+   63  git status 
+   64  git add history 
+   65  git commit -m 'history'
+   66  git push origin main
+   67  git log --oneline
+   68  git config --list
+   69  git log --oneline
+   70  ls
+   71  cat myfile 
+   72  git pull origin main
+   73  ls 
+   74  git log --oneline
+   75  cat >> myfile 
+   76  git status
+   77  git add .
+   78  git commit -m 'fourth line'
+   79  git log --oneline
+   80  git push origin main
+   81  git log --oneline
+   82  git push origin main
+   83  git show HEAD
+   84  ls
+   85  cat myfile 
+   86  exit
+   87  pwd
+   88  ls
+   89  ls /home/
+   90  ls
+   91  cd mumbaigit/
+   92  ls
+   93  cat myfile 
+   94  git log --oneline
+   95  ls -a
+   96  ls .git/
+   97  vi .gitignore
+   98  ls .git/
+   99  ls -a
+  100  mv .gitignore /root/mumbaigit/
+  101  ls
+  102  ls -a
+  103  git status
+  104  git add .gitignore 
+  105  git status
+  106  git commit -m 'added .gitignore'
+  107  git status
+  108  git log --oneline
+  109  git push origin main
+  110  git status
+  111  vi .gitignore 
+  112  git add .
+  113  git commit -m 'modified .gitignore'
+  114  git log --oneline
+  115  git push origin main
+  116  git log --oneline
+  117  cat .gitignore 
+  118  git log -oneline
+  119  git log --oneline 
+  120  git pull origin main
+  121  git log --oneline 
+  122  git log --oneline
+  123  git pull origin main
+  124  git log --oneline
+  125  git log -1
+  126  git log -3
+  127  git log --grep 'third'
+  128  git log | grep 'sid'
+  129  git log | grep 'sid2'
+  130  git log | grep 'siddhu'
+  131  git log | grep 'Sid2'
+  132  git log | grep 'Siddhu'
+  133  history
+  134  history > history
