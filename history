@@ -132,3 +132,236 @@
   132  git log | grep 'Siddhu'
   133  history
   134  history > history
+    1  pwd
+    2  ls
+    3  which git
+    4  yum install git -y
+    5  which git
+    6  git --version
+    7  git config --global user.name 'Siddhu'
+    8  git config --global user.email 'Siddharthpathakala@gmail.com'
+    9  git config list
+   10  git config --global list
+   11  git config  list
+   12  git config  --list
+   13  git config --global user.email 'Sid.ree26@gmail.com'
+   14  git config  --list
+   15  exit
+   16  pwd
+   17  mkdir mumbaigit
+   18  ls
+   19  cd mumbaigit
+   20  git init
+   21  la -a
+   22  ls -a
+   23  vi myfile
+   24  ls -a
+   25  git status
+   26  git add .
+   27  git status
+   28  git commit -m 'first commit'
+   29  git status
+   30  git log
+   31  git show a73a21c
+   32  git remote add origin https://github.com/siddharthpathakala/centralrepo.git
+   33  git remote -v
+   34  git branch
+   35  git branch -M main
+   36  git branch
+   37  ls
+   38  git push -u origin main
+   39  pwd
+   40  git -v
+   41  git remote -v
+   42  git push -u origin main
+   43  pwd
+   44  git log
+   45  ls
+   46  vi myfile 
+   47  git status
+   48  git add myfile 
+   49  git commit -m 'second commit'
+   50  git log --o
+   51  git log --oneline
+   52  git show 8659b4b
+   53  git show a73a21c
+   54  git log --oneline
+   55  git diff head a73a21c
+   56  git diff HEAD a73a21c
+   57  git diff HEAD HEAD~1
+   58  git push
+   59  git push origin main
+   60  history > history
+   61  ls
+   62  cat history
+   63  git status 
+   64  git add history 
+   65  git commit -m 'history'
+   66  git push origin main
+   67  git log --oneline
+   68  git config --list
+   69  git log --oneline
+   70  ls
+   71  cat myfile 
+   72  git pull origin main
+   73  ls 
+   74  git log --oneline
+   75  cat >> myfile 
+   76  git status
+   77  git add .
+   78  git commit -m 'fourth line'
+   79  git log --oneline
+   80  git push origin main
+   81  git log --oneline
+   82  git push origin main
+   83  git show HEAD
+   84  ls
+   85  cat myfile 
+   86  exit
+   87  pwd
+   88  ls
+   89  ls /home/
+   90  ls
+   91  cd mumbaigit/
+   92  ls
+   93  cat myfile 
+   94  git log --oneline
+   95  ls -a
+   96  ls .git/
+   97  vi .gitignore
+   98  ls .git/
+   99  ls -a
+  100  mv .gitignore /root/mumbaigit/
+  101  ls
+  102  ls -a
+  103  git status
+  104  git add .gitignore 
+  105  git status
+  106  git commit -m 'added .gitignore'
+  107  git status
+  108  git log --oneline
+  109  git push origin main
+  110  git status
+  111  vi .gitignore 
+  112  git add .
+  113  git commit -m 'modified .gitignore'
+  114  git log --oneline
+  115  git push origin main
+  116  git log --oneline
+  117  cat .gitignore 
+  118  git log -oneline
+  119  git log --oneline 
+  120  git pull origin main
+  121  git log --oneline 
+  122  git log --oneline
+  123  git pull origin main
+  124  git log --oneline
+  125  git log -1
+  126  git log -3
+  127  git log --grep 'third'
+  128  git log | grep 'sid'
+  129  git log | grep 'sid2'
+  130  git log | grep 'siddhu'
+  131  git log | grep 'Sid2'
+  132  git log | grep 'Siddhu'
+  133  history
+  134  history > history
+  135  git status
+  136  git add history 
+  137  git commit -m 'modified history'
+  138  git push origin main
+  139  git log --one
+  140  git log --oneline
+  141  exit
+  142  ls
+  143  cd mumbaigit/
+  144  ls
+  145  pwd
+  146  tree
+  147  git remote -v
+  148  git branch
+  149  git branch new
+  150  git branch
+  151  vi ramfile
+  152  git status
+  153  git checkout new
+  154  git branch
+  155  git status
+  156  git add .
+  157  git commit -m 'Ram file added'
+  158  ls
+  159  git checkout main
+  160  ls
+  161  git checkout new
+  162  git branch
+  163  git branch main
+  164  git checkout new
+  165  git checkout main
+  166  git branch
+  167  git pull new
+  168  git pull
+  169  ls
+  170  git merge new
+  171  ls
+  172  git log --oneline
+  173  git branch new
+  174  git checkout new
+  175  git log --oneline
+  176  git push origin main
+  177  git checkout main
+  178  gti branch
+  179  git branch
+  180  vi Hanumanfile
+  181  git status
+  182  git rest Hanumanfile
+  183  git reset Hanumanfile
+  184  ls
+  185  git status
+  186  git add Hanumanfile 
+  187  git status
+  188  git reset Hanumanfile
+  189  git satus
+  190  git status
+  191  git add Hanumanfile 
+  192  git status
+  193  git commit -m 'Hanuman File commit'
+  194  git log --oneline
+  195  git revert 45bdc5a
+  196  git log --oneline
+  197  ls
+  198  git show 45bdc5a
+  199  ls
+  200  git log --oneline
+  201  git checkout new
+  202  ls
+  203  git log --oneline
+  204  git merge main
+  205  ls 
+  206  git log --oneline
+  207  git checkout main
+  208  git log --oneline
+  209  git push origin main
+  210  git log --oneline
+  211  git checkout new
+  212  git log --oneline
+  213  git checkout main
+  214  git branch
+  215  git restore HEAD~1
+  216  git restore Hanumanfile
+  217  git restore HEAD
+  218  git log --oneline
+  219  git revert 45bdc5a
+  220  git log --oneline
+  221  git revert HEAD
+  222  git log --oneline
+  223  git checkout new
+  224  git merge main
+  225  git log --oneline
+  226  git push origin main
+  227  git checkout main
+  228  git branh
+  229  git branch
+  230  ls
+  231  cat Hanumanfile 
+  232  history
+  233  history >> history
